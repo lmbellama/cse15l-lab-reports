@@ -11,6 +11,7 @@ I typed ctr + shift + p and typed in Select Default Profile, then selected git b
 ![Image](git bash.png)
 
 On the top right of the terminal, I clicked on the down arrow and selected git bash.
+
 ![Image](git bash 2.png)
 
 Next, I typed $ ssh cs15lwi23zz@ieng6.ucsd.edu into the terminal, where I was then prompted to enter my password. 
