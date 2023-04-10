@@ -15,6 +15,8 @@ On the top right of the terminal, I clicked on the down arrow and selected git b
 ![Image](git bash 2.png)
 
 Next, I typed $ ssh cs15lwi23zz@ieng6.ucsd.edu into the terminal, where I was then prompted to enter my password. 
+
+
 ![password](https://user-images.githubusercontent.com/130100171/230704030-70985127-8af3-4344-a917-d3c77f93eaf2.jpg)
 
 However, due to issues, I was unable to remotely connect during the lab.
