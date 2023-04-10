@@ -20,6 +20,7 @@ Next, I typed $ ssh cs15lwi23zz@ieng6.ucsd.edu into the terminal, where I was th
 However, due to issues, I was unable to remotely connect during the lab.
 
 Trying Some Commands:
+
 I typed in some commands into the terminal, which were ls, cd ~, ls -lat
 ![image](https://user-images.githubusercontent.com/130100171/230704129-25fecd4f-576e-483f-8e13-f36a4e6cbc35.png)
 
