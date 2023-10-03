@@ -28,5 +28,13 @@ I typed in some commands into the terminal, which were ls, cd ~, ls -lat
 
 ![image](https://user-images.githubusercontent.com/130100171/230704430-b8e74a4f-c4af-4ee0-98d4-cf1c72bf2d26.png)
 
+10/3/23
+
+Example with no arguments:
+
+Example with a path to a directory as an argument:
+
+Example with a path to a file as an argument:
+
 
 
