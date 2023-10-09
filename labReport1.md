@@ -1,10 +1,6 @@
 cd command examples:
 
-![Image](terminal.png)
-
 ![Image](cd.png)
-
-![Image](gitbash.png)
 
 Before I entered the cd command without an argument, the working directory was /home and afterwards it was still "/home".
 I got this output because I didn't enter a directory to change to, so it stayed the same. 
@@ -16,7 +12,7 @@ The working directory when I entered the cd command with the "fr.txt" as an argu
 
 ls command examples:
 
-![Image](ls screenshot.png)
+![Image](ls.png)
 
 When I entered the ls command without an argument, the working directory was the home directory and the output was "lecture1". This was the output because the ls command returns a list of the files in the directory. This output was not an error because the "lecture1" file was the only file in the working directory at the time.
 
@@ -26,7 +22,7 @@ I entered the ls command with the fr.txt file as an argument when the working di
 
 cat command examples:
 
-![Image](cat screenshot2.png)
+![Image](cat.png)
 
 
 When I used the cat command without an argument, the directory was "~lecture1/messages". The result was that it started a new, blank line and when I typed in the word "cat" and hit enter, it returned the word "cat" and I repeated this again with the word "hello".
