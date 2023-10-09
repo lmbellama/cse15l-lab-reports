@@ -1,7 +1,8 @@
 cd command examples:
 
 ![Image](terminal.png)
-![Image](cdscreenshot.png)
+
+![Image](cd.png)
 
 ![Image](gitbash.png)
 
