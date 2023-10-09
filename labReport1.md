@@ -1,6 +1,9 @@
 Lab Report 1
+
 Leila Bellama
+
 10/09/2023
+
 CSE 15L 
 
 cd Command Examples:
