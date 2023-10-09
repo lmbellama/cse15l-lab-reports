@@ -29,8 +29,6 @@ cat Command Examples:
 
 ![Image](cat.PNG)
 
-![Image](cat.png)
-
 
 When I used the cat command without an argument, the directory was "~lecture1/messages". The result was that it started a new, blank line and when I typed in the word "cat" and hit enter, it returned the word "cat" and I repeated this again with the word "hello".
 
