@@ -3,7 +3,7 @@ cd command examples:
 ![Image](terminal.png)
 ![Image](cd screenshot.png)
 
-![Image](cd screenshot.png)
+![Image](git bash.png)
 
 Before I entered the cd command without an argument, the working directory was /home and afterwards it was still "/home".
 I got this output because I didn't enter a directory to change to, so it stayed the same. 
