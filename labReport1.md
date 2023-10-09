@@ -1,5 +1,6 @@
 cd command examples:
 
+![Image](terminal.png)
 ![Image](cd screenshot.png)
 
 Before I entered the cd command without an argument, the working directory was /home and afterwards it was still "/home".
