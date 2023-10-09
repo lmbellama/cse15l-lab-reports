@@ -1,4 +1,4 @@
-cd command:
+cd command examples:
 
 ![Image](cd screenshot.png)
 
@@ -10,5 +10,5 @@ When I entered the cd command with the lecture1 directory as an argument, the wo
 
 The working directory when I entered the cd command with the fr.txt as an argument was ~/lecture1/messages. The result was "bash: cd: fr.txt: Not a directory". This was an error because the the text file was not able to be the directory 
 
-
+ls command examples:
 When I entered the ls command without an argument, the working directory was the home directory and the output was "lecture1". This was the output because 
