@@ -40,7 +40,7 @@ Logging on without a password:
 
 Part 3:
 
-Something that I learned about this week that I didn't know about before are port numbers. Servers can have multiple ports 
+Something that I learned about this week that I didn't know about before are port numbers. Servers can have multiple ports and port numbers are used to identify different ports. There are two ports, 80 and 443, that are commonly used on the web.
 
 
 
