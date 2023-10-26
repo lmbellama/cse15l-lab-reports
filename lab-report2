@@ -14,7 +14,8 @@ String Server Code:
 
 Example 1:
 
-![Image](string server ex1.PNG)
+![Image](lab2ex1.PNG)
+
 
 The methods that are called are the main method in the StringServer class, which calls the handleRequest() method. The handleRequest() method has an argument for a URI and has two fields, int num which is 0 and a string called message that is null. Both of the values in those two feilds change when this request is made. The num integer gets incremented by one and the message is changed to include the new line.
 
