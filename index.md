@@ -61,7 +61,7 @@ The methods that are called are the main method in the StringServer class, which
 
 Example 2:
 
-![Image](lab2ex2)
+![Image](lab2ex2.PNG)
 
 The methods that were called were the same as before, the main method from the StringServer class and the handleRequest() method in the Handler class. The arguments in the main method are the commands from the command line. And the arguments for the handleRequest() method is a URI. The feilds for the handleRequest() method are an integer called n and a string called message. Initially, n is equal to 1 and message is "1. hi", and after the command n equals 2 and message is "1. hi" + "/n" +  "2.how was your day?". 
 
@@ -69,15 +69,15 @@ Part 2:
 
 Path to private key:
 
-![Image](privateKP)
+![Image](privateKP.PNG)
 
 Path to public key:
 
-![Image](publicKP)
+![Image](publicKP.PNG)
 
 Logging on without a password:
 
-![Image](login)
+![Image](login.PNG)
 
 Part 3:
 
