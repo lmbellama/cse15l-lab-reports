@@ -1,45 +1,28 @@
-Lab Report 2
+Lab Report 3
 
 CSE 15L Software Tools and Techniques
 
 Leila Bellama
 
-10/23/23
+11/05/23
 
-Part 1:
+Part 1 - Bugs:
+A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
+![Image](report3ss1.PNG)
 
-String Server Code:
+An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
+![Image](report3ss2.PNG)
 
-![Image](sscode.PNG)
+The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
+![Image](report3ss3.PNG)
 
-Example 1:
+The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+Briefly describe why the fix addresses the issue.
 
-![Image](lab2ex1.PNG)
+Before:
+![Image](report3before.PNG)
 
+After:
+![Image](report3after.PNG)
 
-The methods that are called are the main method in the StringServer class, which calls the handleRequest() method. The handleRequest() method has an argument for a URI and has two fields, int num which is 0 and a string called message that is null. Both of the values in those two feilds change when this request is made. The num integer gets incremented by one and the message is changed to include the new line.
-
-Example 2:
-
-![Image](lab2ex2.PNG)
-
-The methods that were called were the same as before, the main method from the StringServer class and the handleRequest() method in the Handler class. The arguments in the main method are the commands from the command line. And the arguments for the handleRequest() method is a URI. The feilds for the handleRequest() method are an integer called n and a string called message. Initially, n is equal to 1 and message is "1. hi", and after the command n equals 2 and message is "1. hi" + "/n" +  "2.how was your day?". 
-
-Part 2:
-
-Path to private key:
-
-![Image](privateKP.PNG)
-
-Path to public key:
-
-![Image](publicKP.PNG)
-
-Logging on without a password:
-
-![Image](login.PNG)
-
-Part 3:
-
-Something that I learned about this week that I didn't know about before are port numbers. Servers can have multiple ports and port numbers are used to identify different ports. There are two ports, 80 and 443, that are commonly used on the web.
-
+The fix I made was changing the inside of the for loop so that the new array is the array being changed ,to the reverse of the original, and then the new aarray gets returned instead of the original. 
