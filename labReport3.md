@@ -29,3 +29,5 @@ After:
 
 The fix I made was changing the inside of the for loop so that the new array is the array being changed ,to the reverse of the original, and then the new aarray gets returned instead of the original. 
 
+Part 2 - Reasearching commmands:
+
