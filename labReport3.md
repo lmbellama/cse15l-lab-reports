@@ -36,11 +36,11 @@ Option 1)
 
 ![Image](3ex1.PNG)
 
-In this example, I used the find - size command to find any files in the government/ directory that are less than 3 gigabytes. This would be useful to find certain files that are under a certain size or to make sure that all your files are under a certain size.
+In this example, I used the find - size command to find any files in the government/ directory that are less than 3 gigabytes.
 
 ![Image](3ex2.PNG)
 
-This example uses the same command, but on the 911report/ directory
+This example uses the same command, but on the 911report/ directory. This option would be useful to find certain files that are under a certain size or to make sure that all your files are under a certain size.
 
 ![Image](3ex3.PNG)
 ![Image](3ex4.PNG)
