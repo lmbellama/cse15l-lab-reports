@@ -64,4 +64,7 @@ I used the find command with the -type option with the argument d, which will on
 
 The -iname option operates similarly to the -name option except it is not case sensitive. I used it on the 911report/ directory, once with the term "CHAPTER" and once with "CHAPter" and they both came up with the same results. This allows for you to be less specific with the term that you are looking for, and you don't have to remember what letters are capatilized. 
 
+Sources:
+
+For all of the options in part two I utilizedd this website: https://www.computerhope.com/unix/ufind.htm#examples
 
