@@ -7,6 +7,7 @@ Leila Bellama
 11/05/23
 
 Part 1 - Bugs:
+
 A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
 ![Image](report3ss1.PNG)
 
