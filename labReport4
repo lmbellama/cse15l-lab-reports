@@ -7,6 +7,16 @@ Leila Bellama
 11/18/23
 
 
+Step 4: Logging into ieng6
 
+To log into ieng6, after I made sure that the terminal was using bash, I entered "ssh cs15lfa23kw@ieng6.ucsd.edu" into the terminal
 
+Step 5: Cloning the fork from Github
 
+After I had already copied the ssh URL from github, I typed "git clone" and hit <Ctrl> + v in order to paste the URL into the terminal. 
+
+Step 6: Running the tests
+
+To run the tests in the ListExamplesTests.java I typed "javac L", then hit <tab> and it autofilled to say "javac ListExamples", then I typed "T" and hit <tab> and it filled to "javac ListExamplesTests.java", and then I hit enter and could see the failed tests.
+
+Step 7: Editing using vim
