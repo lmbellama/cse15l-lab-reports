@@ -23,6 +23,11 @@ Step 7: Editing using vim
 
 To edit the ListExamples.java file, i typed "vim ListExamples.java" into thee terminal and hit <enter>. In order change all the occurences of "sc" in the method "filter" to " checker" I typed the command ":%s/sc/checker/g" and hit <enter>. 
 
+Then, I hit <j> 13 times to move down 13 lines to the line with the While loop header, then I hit <o> to create a new line below that one. It was already in "insert" mode so I just typed "System.out.println("index 1: " + index1 + " index2: " + index2); and then pressed <esc> to get back to normal mode. Lastly, I saved and closed the file by typing ":wq".
+
+
 Sources:
 
 https://www.baeldung.com/linux/vim-search-replace
+
+https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/inserting-text/
