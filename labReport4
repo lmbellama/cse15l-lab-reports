@@ -30,6 +30,7 @@ I reran the tests by pressing the <up> key 3 times then presing <enter>, then I 
 
 Step 9: Commit and push
 
+Finally, to commit and push to Github, I typed "git add ListExamples.java" and hit <enter>, then "git commit -m 'index1 -> index2'" and hit <enter>, and then "git push" and <enter>.
 
 Sources:
 
