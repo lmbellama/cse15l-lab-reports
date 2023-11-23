@@ -17,6 +17,12 @@ After I had already copied the ssh URL from github, I typed "git clone" and hit 
 
 Step 6: Running the tests
 
-To run the tests in the ListExamplesTests.java I typed "javac L", then hit <tab> and it autofilled to say "javac ListExamples", then I typed "T" and hit <tab> and it filled to "javac ListExamplesTests.java", and then I hit enter and could see the failed tests.
+To run the tests in the ListExamplesTests.java I typed "javac L", then hit <tab> and it autofilled to say "javac ListExamples", then I typed "T" and hit <tab> and it filled to "javac ListExamplesTests.java", and then I hit <enter> and could see the failed tests.
 
 Step 7: Editing using vim
+
+To edit the ListExamples.java file, i typed "vim ListExamples.java" into thee terminal and hit <enter>. In order change all the occurences of "sc" in the method "filter" to " checker" I typed the command ":%s/sc/checker/g" and hit <enter>. 
+
+Sources:
+
+https://www.baeldung.com/linux/vim-search-replace
