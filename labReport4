@@ -9,11 +9,11 @@ Leila Bellama
 
 Step 4: Logging into ieng6
 
-To log into ieng6, after I made sure that the terminal was using bash, I entered "ssh cs15lfa23kw@ieng6.ucsd.edu" into the terminal
+To log into ieng6, after I made sure that the terminal was using bash, I entered "ssh cs15lfa23kw@ieng6.ucsd.edu" into the terminal and hit <enter>.
 
 Step 5: Cloning the fork from Github
 
-After I had already copied the ssh URL from github, I typed "git clone" and hit <Ctrl> + v in order to paste the URL into the terminal. 
+After I had already copied the ssh URL from github, so I typed "git clone" and hit <Ctrl> + <v> in order to paste the URL into the terminal, then pressed <enter>. 
 
 Step 6: Running the tests
 
