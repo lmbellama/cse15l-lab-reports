@@ -29,7 +29,7 @@ To run the tests in the ListExamplesTests.java I pasted "javac -cp .:lib/hamcres
 
 Step 7: Editing using vim
 
-To edit the "ListExamples.java" file, I typed "vim ListExamples.java" into the terminal and hit <enter>. I hit <j> 37 times to move down to the line I wanted to edit. To make the edit, I pressed <h> 6 times to move the curser over the "1" in "index1", and pressed <x>, <i>, then 2, to delete the 1 and write the 2. Lastly, I saved and closed the file by pressing <esc> and typing":wq".
+To edit the "ListExamples.java" file, I typed "vim ListExamples.java" into the terminal and hit <enter>. I hit <j> 37 times to move down to the line I wanted to edit. To make the edit, I pressed <h> 6 times to move the curser over the "1" in "index1", and pressed <x>, then <i>, then 2, to delete the 1 and write the 2. Lastly, I saved and closed the file by pressing <esc> and typing":wq".
 
 ![Image](step7.PNG)
 
