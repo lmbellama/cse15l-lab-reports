@@ -35,7 +35,7 @@ To compile and run the tests in ListExamplesTests.java I pasted "javac -cp .:lib
 
 Step 7: Editing using vim
 
-Keys Pressed: `vim List` `<tab>` `<.java>` `<enter>`, `<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>`, `<h>``<h>``<h>``<h>``<h>``<h>`, `<x>` `<i>` `<2>`  `<esc>` `<:wq>` `<enter>`
+Keys Pressed: `vim List` `<tab>` `<.java>` `<enter>`, `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>`, `<h>` `<h>` `<h>` `<h>` `<h>` `<h>`, `<x>` `<i>` `<2>`  `<esc>` `<:wq>` `<enter>`
 
 To edit the "ListExamples.java" file, I typed "vim List" into the terminal and hit the tab button to autofill the rest of the file name but I had to type the ".java" at the end before hitting "enter". I hit "j" 37 times to move down to the line I wanted to edit. To make the edit, I pressed "h" 6 times to move the curser over to the "1" in "index1", and pressed "x", then "i", then "2", to delete the 1 and write the 2. Lastly, I saved and closed the file by pressing "esc" and typing ":wq" then "enter".
 
