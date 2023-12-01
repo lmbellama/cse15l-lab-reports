@@ -29,7 +29,7 @@ Step 6: Running the tests
 
 Keys Pressed: `<Ctrl>` + `<v>` `<space>` `ListExamplesTests.java` `<enter>`, `<Ctrl>` + `<v>` `<space>` `ListExamplesTests` `<enter>`
 
-To compile and run the tests in ListExamplesTests.java I pasted "javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar" using "ctrl" + "v" into the terminal, hit "space", typed "ListExamplesTests.java", and hit "enter". I also pasted "java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore" into the terminal using the same keys as before then pressed "space" and typed "ListExamplesTests" and hit <"enter">.
+To compile and run the tests in ListExamplesTests.java I pasted "javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar" using "ctrl" + "v" into the terminal, hit "space", typed "ListExamplesTests.java", and hit "enter". I also pasted "java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore" into the terminal after copying it using "ctrl" + "v" then pressed "space" and typed "ListExamplesTests" and hit <"enter">.
 
 ![Image](tests1.PNG)
 
