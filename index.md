@@ -19,7 +19,7 @@ Step 5: Cloning the fork from Github
 
 Keys Pressed: `git clone` `<space>`  `<Ctrl>` + `<v>` `<enter>`, `cd lab7` `<enter>`
 
-After I had already copied the ssh URL from github,  I typed "git clone" and hit <Ctrl> + <v> in order to paste the URL into the terminal, then pressed <"enter">. I also had to change the working directory to the "lab7" directory by typing "cd lab7" and <"enter"> into the terminal.
+After I had already copied the ssh URL from github,  I typed "git clone" and hit "Ctrl" + "v" in order to paste the URL into the terminal, then pressed "enter". I also had to change the working directory to the "lab7" directory by typing "cd lab7" and "enter" into the terminal.
 
 ![Image](step5.PNG)
 
@@ -51,9 +51,9 @@ I reran the tests by pressing the "up" key 3 times then presing "enter" because 
 
 Step 9: Commit and push
 
-Keys Pressed: `<git add>` `<space>` `<List>` `<tab>` `<.java>` `<enter>`, `<git commit -m "index1 -> index2">` `<enter>`
+Keys Pressed: `<git add>` `<space>` `<List>` `<tab>` `<.java>` `<enter>`, `<git commit -m "index1 -> index2">` `<enter>`, `<git push>` `<enter>`
 
-Finally, to commit and push to Github, I typed "git add List", then pressed tab to autofil the rest of the name, then ".java" and hit <"enter">. After that I typed "git commit -m 'index1 -> index2'" and hit <"enter">, and then "git push" and <"enter">.
+Finally, to commit and push to Github, I typed "git add List", then pressed tab to autofil the rest of the name, then ".java" and hit "enter". After that I typed "git commit -m 'index1 -> index2'" and hit "enter", and then "git push" and "enter".
 
 ![Image](step8.PNG)
 
