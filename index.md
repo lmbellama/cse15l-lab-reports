@@ -4,61 +4,67 @@ CSE 15L Software Tools and Techniques
 
 Leila Bellama
 
-11/18/23
+12/2/23
 
 
-Step 4: Logging into ieng6
+Part 1 - Debugging Scenario
 
-Keys Pressed: `ssh cs15lfa23kw@ieng6.ucsd.edu`  `<enter>`
+1)Student's post:
 
-To log into ieng6, after I made sure that the terminal was using bash, I entered "ssh cs15lfa23kw@ieng6.ucsd.edu" into the terminal and hit "enter".
+The symptom below was a result of trying to run a bash file with the argument "hello". The bash file is supposed to compile and run another file, palindromeChecker.java, with the command line argument as the argument. Maybe the bug is a complication with compiling the file that the bash file is supposed to run.
 
-![Image](step4.PNG)
+![image](https://github.com/lmbellama/cse15l-lab-reports/assets/130100171/8095c00f-d6be-4fde-9be0-e8252e8ac6c5)
 
-Step 5: Cloning the fork from Github
 
-Keys Pressed: `git clone` `<space>`  `<Ctrl>` + `<v>` `<enter>`, `cd lab7` `<enter>`
+2)TA's Response:
 
-After I had already copied the ssh URL from github,  I typed "git clone" and hit "space" then "Ctrl" + "v" in order to paste the URL into the terminal, then pressed "enter". I also had to change the working directory to the "lab7" directory by typing "cd lab7" and "enter" into the terminal.
+Well you could try compiling and running your palindromeChecker.java file from the command line to see if it will cause an error. If there is no error, then the bug could be a problem with calling the file in your bash file.
 
-![Image](step5.PNG)
+3)Student's Response:
 
-![Image](step5.1.PNG)
 
-Step 6: Running the tests
+![image](https://github.com/lmbellama/cse15l-lab-reports/assets/130100171/dc66caf0-a582-4e9e-9658-34d15f8210d3)
 
-Keys Pressed: `<Ctrl>` + `<v>` `<space>` `ListExamplesTests.java` `<enter>`, `<Ctrl>` + `<v>` `<space>` `ListExamplesTests` `<enter>`
 
-To compile and run the tests in ListExamplesTests.java I pasted "javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar" using "ctrl" + "v" into the terminal, hit "space", typed "ListExamplesTests.java", and hit "enter". I also pasted "java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore" into the terminal after copying it using "ctrl" + "v" then pressed "space" and typed "ListExamplesTests" and hit <"enter">.
+What I learned from entering the command `javac *.java`, was that the .java files in the current directory can be compiled without an issue. The bug isn't in the palindromeChecker.file because I was able to call it the the argument "hello" and got the correct output. And I learned that the bug is in the line of code in the bash file that calls palindromeChecker.java, which is the line `java -cp palindromeChecker $@` because when I entered that line in the terminal with and without an argument, there were errors. When I entered that line with the same argument as before, "hello", it produced the same error message as before. The terminal output when I tried the line without an argument was a list of the ways `java` command can be used as well as the options compatable with it. This tells me that that line in the bash script incorrectly uses the `java` command.
 
-![Image](tests1.PNG)
+The bug that was causing the errors was the `-cp` option that I had in the third line of the test.sh file where I called the palindromChecker class after compling all the .java files in the directory. This was causing issues because using the `-cp` option with the `java` command without entering a classpath causes an error. 
 
-Step 7: Editing using vim
+4)Setup Information:
 
-Keys Pressed: `vim List` `<tab>` `<.java>` `<enter>`, `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>`, `<h>` `<h>` `<h>` `<h>` `<h>` `<h>`, `<x>` `<i>` `<2>`  `<esc>` `<:wq>` `<enter>`
+-file and directory structure:
 
-To edit the "ListExamples.java" file, I typed "vim List" into the terminal and hit the tab button to autofill the rest of the file name but I had to type the ".java" at the end before hitting "enter". I hit "j" 37 times to move down to the line I wanted to edit. To make the edit, I pressed "h" 6 times to move the curser over to the "1" in "index1", and pressed "x", then "i", then "2", to delete the 1 and write the 2. Lastly, I saved and closed the file by pressing "esc" and typing ":wq" then "enter".
+![image](https://github.com/lmbellama/cse15l-lab-reports/assets/130100171/0f8ccab9-ce6a-48c6-ae50-e6ed376178e6)
 
-![Image](step7.PNG)
+The only files I needed were the files palindromeChecker.java and test.sh, which were both in my labReport5 directory.
 
-Step 8: Rerunning the tests
+-contents of files before fixing the bug 
 
-Keys Pressed: `<up>` `<up>` `<up>` `<enter>`, `<up>` `<up>` `<up>` `<enter>`, 
+test.sh:
 
-I reran the tests by pressing the "up" key 3 times then presing "enter" because the first line to complie and run the tests was 3 commands up in the history, then I pressed the "up" key another three times and hit "enter" to get the second line to compile and run the tests.
+![image](https://github.com/lmbellama/cse15l-lab-reports/assets/130100171/6a91d8e8-e1c5-4d5d-ba83-64dfafaa4b46)
 
-![Image](tests2.PNG)
+palindromeChecker.java:
 
-Step 9: Commit and push
+![image](https://github.com/lmbellama/cse15l-lab-reports/assets/130100171/f1247456-5c7b-4bd9-bb98-e193ec6b9d2e)
 
-Keys Pressed: `<git add List>` `<tab>` `<.java>` `<enter>`, `<git commit -m "index1 -> index2">` `<enter>`, `<git push>` `<enter>`
+-contents of files after fixing the bug
 
-Finally, to commit and push to Github, I typed "git add List", then pressed tab to autofil the rest of the name, then ".java" and hit "enter". After that I typed "git commit -m 'index1 -> index2'" and hit "enter" so that the message for the commit would be "index1 -> index2", and then "git push" and "enter" to push it to github.
+test.sh:
 
-![Image](step8.PNG)
+![image](https://github.com/lmbellama/cse15l-lab-reports/assets/130100171/5fb7f769-5fad-4d39-83b7-b03fcc4bfedb)
 
-Sources:
 
-https://www.baeldung.com/linux/vim-search-replace
+palindromeChecker.java:
 
-https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/inserting-text/
+![image](https://github.com/lmbellama/cse15l-lab-reports/assets/130100171/f1247456-5c7b-4bd9-bb98-e193ec6b9d2e)
+
+-command line/s that triggered the bug
+
+![Image](terminalError.PNG)
+
+The failure-inducing inputs that caused this symptom were the terminal commands `bash test.sh hello` and `bash tesh.sh`  
+
+-description of edits
+
+The edit that was made to fix the bug was deleting the `-cp` from the third line of the test.sh file. 
