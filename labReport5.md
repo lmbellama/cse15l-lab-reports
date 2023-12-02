@@ -14,6 +14,8 @@ Part 1 - Debugging Scenario
 -A description of what to edit to fix the bug
 You should actually set up and run the scenario from your screenshots. It should involve at least a Java file and a bash script. Describing the bug should involve reading some output at the terminal resulting from running one or more commands. Design an error that produces more interesting output than a single message about a syntax or unbound identifier error – showcase some interesting wrong behavior! Feel free to set this up by cloning and breaking some existing code like the grading script or code from class, or by designing something of your own from scratch, etc.
 
-1)Student's post
+1)Student's post:
 
-![Image](eroor.PNG)
+The screenshot below of the terminal output shows the symptom of a bug. I entered the command `bash test.sh` with the argument `hello`, which should have ran the bash script file test.sh that compiles and runs the palindromeChecker.java file with the command line argument as the argument. The terminal error says "Could not find or load main class hello", which 
+
+![Image](error.PNG)
