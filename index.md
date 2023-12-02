@@ -68,3 +68,7 @@ The failure-inducing inputs that caused this symptom were the terminal commands 
 -description of edits
 
 The edit that was made to fix the bug was deleting the `-cp` from the third line of the test.sh file. 
+
+Part 2 - Reflection
+
+Something I learned about in lab is that you can enter a command in the terminal followed by "--help" and it will output a description of what the command does, the different ways it can be used, the options that work with it, and some other information like exit status meaning. This is useful for when you are using an unfamiliar command or want to see what options can be used with it. It is also useful for if you want to be more specific about what kind of results you want. 
